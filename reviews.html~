@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payne's Beauty Supply: Reviews</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/modernizr.js"></script>
+     <!--Google Fonts-->
+	  <link href='http://fonts.googleapis.com/css?family=Acme|Armata' rel='stylesheet' type='text/css'>
+    <style>
+                   h2 {
+  margin-top: 40px;
+  font-weight: 200;
+  color: #333;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.quote {
+  background: #ebf3f5;
+  padding: 15px 20px 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.quote:after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 18px 0 18px;
+  border-color: #ebf3f5 transparent transparent transparent;
+  position: relative;
+  top: 37px;
+  left: 20px;
+}
+
+.student {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+.student .photo {
+  background-color: #ccc;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+.student p {
+  position: relative;
+  top: 5px;
+  text-transform: uppercase;
+}
+.student p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.student p:nth-child(3) {
+  font-size: 14px;
+  color: #777;
+}
+    </style>
+  </head>
+  <body>
+    <div class="row">
+<div class="large-12 columns">
+<div class="nav-bar right">
+<ul class="button-group">
+<li><a href="index.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Home</strong></a></li>
+<li><a href="products.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Products</strong></a></li>
+<li><a href="reviews.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Reviews</strong></a></li>
+<li><a href="emaillist.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Email List</strong></a></li>
+</ul>
+</div>
+<h1 class="show-for-large-up"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h1>
+<h2 class="show-for-medium-only"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h2>
+<h3 class="show-for-small-only"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h3>
+<hr/>
+</div>
+</div>
+<br>
+<div id="content">
+
+<div class="testimonial-wrap">
+  <div class="row">
+    <div class="large-12 columns centered-text">
+      <h2>Reviews from Our Customers</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-6 columns testimonial">
+      <div class="quote">
+        <p>Lorem ipsum dolor sit amet, his semper menandri et, populo denique ad ius. Dolorum omittantur philosophia pri ex. Sit ea omnis modus.</p>
+      </div>
+      <div class="student">
+        <div class="photo"></div>
+        <p>Jenny Stylist</p>
+        <p>Fancy Salon</p>
+      </div>
+    </div>
+    <div class="large-6 columns testimonial">
+      <div class="quote">
+        <p>Lorem ipsum dolor sit amet, his semper menandri et, populo denique ad ius. Dolorum omittantur philosophia pri ex. Sit ea omnis modus.</p>
+      </div>
+      <div class="student">
+        <div class="photo"></div>
+        <p>Max Stylist</p>
+        <p>Shear Perfection</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <hr>
+  <br>
+
+  
+              
+  
+ <!--Footer-->
+  <br>
+  <hr/>
+  <div class="row">
+    <div class="large-12 columns">
+    <h4 class="show-for-medium-up">&copy;2015 Payne's Beauty Supply. <em>Student Project by Kaitlin Primeau</em></h4>
+    <h4 class="show-for-small-only">&copy;2015 Payne's Beauty Supply. <em>Student Project by Kaitlin Primeau</em><br></h4>
+    </div>
+  </div> 
+</div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payne's Beauty Supply: Products</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/modernizr.js"></script>
+     <!--Google Fonts-->
+	 <link href='http://fonts.googleapis.com/css?family=Acme|Armata' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--show/hide script-->
+    <script src="js/products.js"></script>
+
+  </head>
+  <body>
+    <div class="row">
+<div class="large-12 columns">
+<div class="nav-bar right">
+<ul class="button-group">
+<li><a href="index.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Home</strong></a></li>
+<li><a href="products.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Products</strong></a></li>
+<li><a href="reviews.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Reviews</strong></a></li>
+<li><a href="emaillist.html" class="button" style="color:#000; background-color:#F9FB1B; border: 2px solid #d1d134; border-radius:1px; "><strong>Email List</strong></a></li>
+</ul>
+</div>
+<h1 class="show-for-large-up"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h1>
+<h2 class="show-for-medium-only"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h2>
+<h3 class="show-for-small-only"><a href="index.html" style="font-family: 'Acme', sans-serif; color:#000;">Payne's Beauty Supply</a></h3>
+<hr/>
+</div>
+</div>
+<br>
+<div id="content">
+<!--make a mobile friendly version of this panel-->
+<div class="large-4 small-12 columns">
+<div class="panel">
+  <h5><a href="#" id="show">All</a></h5><hr>
+  <h5><a href="#" id="DesignEssentials">Design Essentials</a></h5>
+  <h5><a href="#" id="Dudleys">Dudley's</a></h5>
+  <h5><a href="#" id="IsabellasOwn">Isabella's Own</a></h5>
+  <h5><a href="#" id="Kemet">Kemet</a></h5>
+  <h5><a href="#" id="KeraCare">KeraCare</a></h5>
+  <h5><a href="#" id="Mizani">Mizani</a></h5>
+  <h5><a href="#" id="NuExpressions">Nu Expressions</a></h5>
+  <h5><a href="#" id="StraightRequest">Straight Request</a></h5>
+  <h5><a href="#" id="Syntonics">Syntonics</a></h5><hr>
+  <h5><a href="#" id="sales">Sales</a></h5>
+</div>
+</div> 
+
+<div class="large-8 columns">
+<div class="row">
+
+<div class="large-4 small-8 columns Sales DesignEssentials">
+<img src="http://placehold.it/500x500&text=Product">
+<div class="panel">
+<h5>Design Essentials</h5>
+<h6 class="subheader"><strike>$74.80</strike>
+$64.95</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Design Essentials">
+<input type="hidden" name="cost1" id="cost1" value="64.95">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+
+<div class="large-4 small-8 columns StraightRequest">
+<img src="http://placehold.it/500x500&text=Product">
+<div class="panel">
+<h5>Straight Request</h5>
+<h6 class="subheader">$12.95</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Straight Request">
+<input type="hidden" name="cost1" id="cost1" value="12.95">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+
+<div class="large-4 small-8 columns KeraCare">
+<img src="http://placehold.it/500x500&text=Product">
+<div class="panel">
+<h5>KeraCare</h5>
+<h6 class="subheader">$11.95</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Keracare">
+<input type="hidden" name="cost1" id="cost1" value="11.95">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+<!--end row class-->
+</div>
+
+<div class="row">
+<div class="large-4 small-8 columns Mizani">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Mizani</h5>
+<h6 class="subheader">$19.95</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Mizani">
+<input type="hidden" name="cost1" id="cost1" value="19.95">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+
+<div class="large-4 small-8 columns NuExpressions">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Nu Expressions</h5>
+<h6 class="subheader">$8.50</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Nu Expressions">
+<input type="hidden" name="cost1" id="cost1" value="8.50">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+
+<div class="large-4 small-8 columns Dudleys">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Dudley's</h5>
+<h6 class="subheader">$12.00</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Dudley's">
+<input type="hidden" name="cost1" id="cost1" value="12.00">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>
+
+<!--end row class-->
+</div>
+
+<div class="row">
+<div class="large-4 small-8 columns Kemet">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Kemet</h5>
+<h6 class="subheader">$5.00</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Kemet">
+<input type="hidden" name="cost1" id="cost1" value="5.00">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div>  
+
+<div class="row">
+
+<div class="large-4 small-8 columns Sales Syntonics">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Syntonics</h5>
+<h6 class="subheader"><strike>$15.00</strike> $10.00</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Syntonics">
+<input type="hidden" name="cost1" id="cost1" value="10.00">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div> 
+
+<div class="row">
+<div class="large-4 small-8 columns IsabellasOwn">
+<img src="http://placehold.it/500x500&text=Product" >
+<div class="panel">
+<h5>Isabella's Own</h5>
+<h6 class="subheader">$20.35</h6>
+<form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+<input type="hidden" name="desc1" id="desc1" value="Isabella's Own">
+<input type="hidden" name="cost1" id="cost1" value="20.35">
+<input type="submit" value="Add to Cart">
+</form>
+</div>
+</div> 
+<!--end row class-->
+</div>
+
+</div>
+ <!--Footer-->
+  <br>
+  <hr/>
+  <div class="row">
+    <div class="large-12 columns">
+    <h4 class="show-for-medium-up">&copy;2015 Payne's Beauty Supply. <em>Student Project by Kaitlin Primeau</em></h4>
+    <h4 class="show-for-small-only">&copy;2015 Payne's Beauty Supply. <em>Student Project by Kaitlin Primeau</em><br></h4>
+    </div>
+  </div> 
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
